@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Things to share</title>
+    <link>/</link>
+    <description>Recent content on Things to share</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2020 Jian Zhang.</copyright>
+    
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First</title>
+      <link>/first/</link>
+      <pubDate>Fri, 31 Jul 2020 22:50:55 +0800</pubDate>
+      
+      <guid>/first/</guid>
+      <description>This is my first try </description>
+      
+    </item>
+    
+  </channel>
+</rss>
