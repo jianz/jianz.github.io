@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Things to share</title>
-    <link>/</link>
-    <description>Recent content on Things to share</description>
+    <title>Posts on Things to share</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Things to share</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2020 Jian Zhang.</copyright>
     <lastBuildDate>Sat, 01 Aug 2020 14:47:59 +0800</lastBuildDate>
     
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Posts</title>
-      <link>/posts/</link>
+      <title>My First Post</title>
+      <link>/posts/my-first-post/</link>
       <pubDate>Sat, 01 Aug 2020 14:47:59 +0800</pubDate>
       
-      <guid>/posts/</guid>
-      <description></description>
+      <guid>/posts/my-first-post/</guid>
+      <description>Hello World</description>
       
     </item>
     
