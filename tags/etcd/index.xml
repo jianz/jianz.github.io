@@ -18,7 +18,7 @@
       <pubDate>Tue, 25 Aug 2020 00:00:00 +0800</pubDate>
       
       <guid>/posts/2020-08-25-reset-pv/</guid>
-      <description>TL;DR If you deleted a kubernetes persistent volume by accident, and it stuck in the terminating status due to kubernetes.io/pv-protection finalizer prevent it from being deleted. You can use this k8s-reset-terminating-pv tool to reset its status back to bound.
+      <description>TL;DR When delete a kubernetes persistent volume by accident, it may stuck in the terminating status due to kubernetes.io/pv-protection finalizer prevent it from being deleted. You can use this k8s-reset-terminating-pv tool to reset its status back to bound.
 Prologue You may notice this is the first post of my blog.🥳 Actually, I wanted to write a blog a very very long time ago but did not find anything worth sharing until one day I deleted a very important persistent volume by accident.</description>
       
     </item>
