@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.74.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<html lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8"><meta name="generator" content="Hugo 0.133.0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
-<meta name="supported-color-schemes" content="light dark"><title>etcd&nbsp;&ndash;&nbsp;Things to share</title><link rel="stylesheet" href="/css/core.min.4bd95be1862ee3ff37c23cc27555a05fa1a802cf208b5c6ed3968638ac36cbdfcd7f1ff1c422f3b6e14e364fc0b4b0ae.css" integrity="sha384-S9lb4YYu4/83wjzCdVWgX6GoAs8gi1xu05aGOKw2y9/Nfx/xxCLztuFONk/AtLCu"><link rel="alternate" type="application/rss+xml" href="/tags/etcd/index.xml" title="Things to share" /><meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="etcd" /><body><section id="header">
+<meta name="supported-color-schemes" content="light dark"><title>Etcd&nbsp;&ndash;&nbsp;Things to share</title><link rel="stylesheet" href="/css/core.min.003a667cf21024ef30f2985fb57c9bd6f6873cf899ee14e9302e68e9f04b681df9440cec4ebdaa101dca533a262c242f.css" integrity="sha384-ADpmfPIQJO8w8phftXyb1vaHPPiZ7hTpMC5o6fBLaB35RAzsTr2qEB3KUzomLCQv"><link rel="alternate" type="application/rss+xml" href="/tags/etcd/index.xml" title="Things to share" /><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Etcd" /><body><section id="header">
     <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">Things to share</span></a></span>
-        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/categories/">Categories</a><a class="nav item" href="/tags/">Tags</a></nav></div></span></div></section><section id="content"><section class="article header"><h1>etcd</h1></section><ul class="note list"><li class="item"><a class="note" href="/posts/2020-08-25-reset-pv/">
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/categories/">Categories</a><a class="nav item" href="/tags/">Tags</a></nav></div></span></div></section><section id="content"><section class="article header"><h1>Etcd</h1></section><ul class="note list"><li class="item">
+        
+        <a class="note" href="/posts/2020-08-25-reset-pv/">
+        
             <p class="note title">How to reset persistent volume status from terminating back to bound.</p><p class="note date">Aug 25, 2020</p><p class="note content">TL;DR When delete a kubernetes persistent volume by accident, it may stuck in the terminating status due to kubernetes.io/pv-protection finalizer prevent it from being deleted. You can use this k8s-reset-terminating-pv tool to reset its status back to bound.
 Prologue You may notice this is the first post of my blog.🥳 Actually, I wanted to write a blog a very very long time ago but did not find anything worth sharing until one day I deleted a very important persistent volume by accident.<span class="mldr">&mldr;</span></p></a><p class="note labels"><a class="category" href="/categories/kubernetes/">kubernetes</a><a class="tag" href="/tags/etcd/">etcd</a><a class="tag" href="/tags/go/">go</a><a class="tag" href="/tags/k8s/">k8s</a><a class="tag" href="/tags/pv/">pv</a><a class="tag" href="/tags/protobuf/">protobuf</a></p></li></ul></section><section id="footer"><div class="footer-wrap">
-    <p class="copyright">©2020 Jian Zhang under CC BY-SA 4.0</p>
-    <p class="powerby"><span>Powered&nbsp;by&nbsp;</span><a href="https://gohugo.io" 
-        target="_blank">Hugo</a><span>&nbsp;&amp;&nbsp;</span><a href="https://themes.gohugo.io/hugo-notepadium/" 
-        target="_blank">Notepadium</a></p></div></section>
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-131351449-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-<script src="/js/core.min.4633cf9b472d3441451e45bc65e3e727eb7c57e56128c5b43a14131a3359dc43348e58347361a41a186fbd3c2bc09037.js" integrity="sha384-RjPPm0ctNEFFHkW8ZePnJ&#43;t8V&#43;VhKMW0OhQTGjNZ3EM0jlg0c2GkGhhvvTwrwJA3"></script></body>
+    <p class="copyright">©2020~2024 Jian Zhang under CC BY-SA 4.0</p>
+    <p class="powerby"><span>Powered&nbsp;by&nbsp;</span><a href="https://gohugo.io" target="_blank"
+            rel="noopener noreferrer">Hugo</a><span>&nbsp;&amp;&nbsp;</span>Notepadium</p></div></section>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RGN7Y6FYDZ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RGN7Y6FYDZ');
+        }
+      </script>
+    
+  
+
+<script src="/js/core.min.b9bcdbafdb7a5ae87b4efec6afc9671e90082dd4747c066fca7e0394cda0dbd4e3d457823d7e09c0bc327486faf3e950.js" integrity="sha384-ubzbr9t6Wuh7Tv7Gr8lnHpAILdR0fAZvyn4DlM2g29Tj1FeCPX4JwLwydIb68&#43;lQ"></script></body>
 
 </html>
